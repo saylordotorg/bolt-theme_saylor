@@ -1,0 +1,42 @@
+
+<!-- Footer -->
+        <footer class="large-12 columns">
+            <hr />
+            <div class="row">
+                <ul class="inline-list">
+                    {{ menu('footer') }}
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="inline-list">
+                    {{ menu('social') }}
+                </ul>
+            </div>
+            <div class="row">
+              <p>© Saylor Foundation 2015. <br>
+              Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 3.0 Unported License.</p>
+              <p>Saylor Academy and Saylor.org® are trade names of the Constitution Foundation, a 501(c)(3) organization through which our educational activities are conducted.</p>
+            </div>
+            <div class="row">
+                <ul class="inline-list">
+                    {{ menu('legal') }}
+                </ul>
+            </div>
+        </footer>
+    </div>
+</div>
+</main> <!-- class="inner-wrap" -->
+</div> <!-- class="off-canvas-wrap" -->
+
+    <script src="{{ paths.theme }}javascripts/jquery-2.1.0.min.js"></script>
+    <script src="{{ paths.theme }}javascripts/foundation.min.js"></script>
+    <script src="{{ paths.theme }}javascripts/modernizr.js"></script>
+
+    {# Bolt comes with Magnific Popup, as it's used in the backend. We can use it here, or you can
+       just swap it out for the image-viewing script of your choice. Or delete it altogether. #}
+    <script src="{{ paths.theme }}javascripts/jquery.magnific-popup.min.js"></script>
+
+    <script src="{{ paths.theme }}javascripts/app.js" async defer></script>
+
+</body>
+</html>
